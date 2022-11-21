@@ -25,3 +25,5 @@ ratingList = getRatingsList()
 @ratings_api.route('/ratings', methods=["GET"], )
 def ratings():
     return jsonify(ratingList)
+
+app.run()
